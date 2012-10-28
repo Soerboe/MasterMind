@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/copy_row" 
+        android:title="@string/copy_row">
+        
+    </item>
+    <item android:id="@+id/clear_row" 
+        android:title="@string/clear_row">
+        
+    </item>
+    <item android:id="@+id/zoom_in" android:title="@string/zoom_in"></item>
+    <item android:id="@+id/zoom_out" android:title="@string/zoom_out"></item>
+    
+
+</menu>

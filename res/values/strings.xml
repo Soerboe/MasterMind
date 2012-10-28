@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Game!</string>
+    <string name="app_name">MasterMind</string>
+    <string name="textCheck">DONE</string>
+    <string name="notComplete">Every slot must have a peg</string>
+    <string name="select_level">Select level</string>
+    <string name="create_game">Let\'s go&#8230;</string>
+    <string name="new_game">New game</string>
+    <string name="copy_row">Copy previous row</string>
+    <string name="clear_row">Clear row</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="highscore">Highscore</string>
+    <string-array name="level_names">
+        <item >Too easy</item>
+        <item >Very easy</item>
+        <item >Easy</item>
+        <item >Medium</item>
+        <item >Hard</item>
+        <item >Very hard</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="add_highscore">Add to highscore</string>
+    <string name="no_name">No name given</string>
+    <string name="add_to_highscore">Add to highscore</string>
+    <string name="name">Name:</string>
+    <string name="score">Score:</string>
+
+</resources>

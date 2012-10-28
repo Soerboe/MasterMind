@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/SelectLevelBaseLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+      	<TextView
+            android:id="@+id/level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      	<SeekBar
+            android:id="@+id/levels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="2dp"
+            android:layout_below="@+id/level_name"/>
+
+      	<TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_below="@id/levels"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <Button
+            android:id="@+id/btnCreateGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_game"
+            android:textSize="20sp"
+            android:layout_below="@id/description"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
